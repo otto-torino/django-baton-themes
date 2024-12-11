@@ -1,4 +1,4 @@
-# Tranquillity Light 
+# Tranquillity Light 2
 
 ![Screenshot](screen1.png)
 
