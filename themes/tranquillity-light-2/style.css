@@ -1,0 +1,178 @@
+/* BATON */
+:root, [data-bs-theme="light"] {
+    /* main */
+    --body-bg: #fff;
+    --darkened-bg: #fff;
+    --border-color: #dee2e6;
+    --bs-baton-body-bg: #fff;
+    --bs-baton-content-bg: #EDF1F6;
+    --bs-baton-content-title-bg: #EDF1F6;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fa9f1b;
+    --bs-btn-active-border-color: #fa9f1b;
+    --bs-baton-accent-color: #9fcc2e
+
+    /* utils */
+    --bs-baton-warning-color: #d39e00;
+    --bs-baton-danger-color: #dc3545;
+
+    /* login */
+    --bs-baton-login-bg: #fff;
+    --bs-baton-login-password-visibility-toggler-icon-fg: #999;
+
+    /* dashboard */
+    --bs-baton-dashboard-bg: #EDF1F6;
+    --bs-baton-dashboard-module-bg: #fff;
+    --bs-baton-dashboard-module-border-color: #E1E7F0;
+    --bs-baton-dashboard-caption-bg: #f6f6f6;
+    --bs-baton-dashboard-caption-color: #000;
+    --bs-baton-dashboard-icon-color: #9fcc2e;
+    --bs-baton-dashboard-delete-bg: #dc3545;
+    --bs-baton-dashboard-add-bg: #fa9f1b;
+    --bs-baton-dashboard-change-bg: #007eed;
+    --bs-baton-dashboard-action-list-border-color: #e7e7e7;
+
+    /* navbar */
+    --bs-baton-navbar-bg: #25476a;
+    --bs-baton-navbar-color: #fff;
+    --bs-baton-navbar-link-color: #fff;
+    --bs-baton-navbar-link-hover-color: #d32d41;
+    --bs-baton-navbar-dropdown-link-color: #000;
+    --bs-baton-navbar-mobile-pane-bg: #263238;
+
+    /* menu */
+    --bs-baton-menu-bg: #fff;
+    --bs-baton-menu-color: #000;
+    --bs-baton-menu-branding-color: #fff;
+    --bs-baton-menu-gravatar-border-color: #fff;
+    --bs-baton-menu-user-links-color: #fa9f1b;
+    --bs-baton-menu-link-color: #25476a;
+    --bs-baton-menu-link-hover-color: #03a9f4;
+    --bs-baton-menu-li-hover-bg: #f8f8f8;
+    --bs-baton-menu-active-voice-bg: #f7f7f7;
+    --bs-baton-menu-active-voice-border-color: #f7f7f7;
+    --bs-baton-menu-mobile-title-bg: #25476a;
+    --bs-baton-menu-mobile-title-color: #fff;
+    --bs-baton-menu-mobile-back-bg: #E1E7F0;
+    --bs-baton-menu-selected-sub-bg: #fff;
+    --bs-baton-menu-title-bg: #fff;
+    --bs-baton-menu-voice-title-color: #25476a;
+    --bs-baton-menu-voice-title-bg: #fff;
+    --bs-baton-menu-branding-bg: #25476a;
+
+    /* search field */
+    --bs-baton-search-field-input-bg: #fff;
+    --bs-baton-search-field-input-border-color: #e0e0e0;
+    --bs-baton-search-field-color: #000;
+    --bs-baton-search-field-datalist-bg: #25476a;
+    --bs-baton-search-field-icon-color: #fa9f1b;
+    --bs-baton-search-field-link-color: #fff;
+    --bs-baton-search-field-selected-bg: #03a9f4;
+    --bs-baton-search-field-selected-color: #fff;
+
+    /* breadcrumbs */
+    --bs-baton-breadcrumbs-bg: #25476a;
+    --bs-baton-breadcrumbs-link-color: #9fcc2e;
+    --bs-baton-breadcrumbs-color: #fff;
+
+    /* changelist */
+    --bs-baton-changelist-bg: #fff;
+    --bs-baton-changelist-border-color: #fff;
+    --bs-baton-changelist-toolbar-bg: #E1E7F0;
+    --bs-baton-changelist-toolbar-btn-bg: #f0f0f0;
+    --bs-baton-changelist-toolbar-btn-color: #000;
+    --bs-baton-changelist-toolbar-btn-hover-bg: #fafafa;
+    --bs-baton-changelist-sort-icon-color: #999;
+    --bs-baton-changelist-filters-bg: #fafafa;
+    --bs-baton-changelist-filters-title-bg: #263238;
+    --bs-baton-changelist-filters-title-color: #fff;
+    --bs-baton-changelist-filter-selected-border-color: #000;
+    --bs-baton-changelist-filters-clear-bg: #17a2b8;
+    --bs-baton-changelist-rl-head-bg: #f0f0f0;
+    --bs-baton-changelist-rl-head-color: inherit;
+    --bs-baton-changelist-rl-tr-odd-bg: rgba(0, 0, 0, 0.01);
+    --bs-baton-changelist-rl-tr-odd-color: inherit;
+    --bs-baton-changelist-rl-tr-selected-bg-color: #EDF1F6;
+    --bs-baton-changelist-rl-tr-selected-bg: #EDF1F6;
+    --bs-baton-changelist-rl-tr-selected-color: inherit;
+
+    /* changeform */
+    --bs-baton-changeform-bg: #fff;
+    --bs-baton-changeform-border-color: #fff;
+    --bs-baton-changeform-collapse-entry-icon-color: #666;
+    --bs-baton-changeform-field-bg: #fff;
+    --bs-baton-changeform-field-row-error-bg: #f2dede;
+    --bs-baton-changeform-fieldset-title-bg: #f6f8fa;
+    --bs-baton-changeform-fieldset-nested-title-bg: #fbebed;
+    --bs-baton-changeform-inline-related-title-bg: #fafafa;
+    --bs-baton-changeform-inline-related-title-border-color: #eee;
+    --bs-baton-changeform-inline-related-title-border-top-color: #eee;
+    --bs-baton-changeform-inline-changelink-bg: #ffe4dc;
+    --bs-baton-changeform-inline-tabular-original-bg: #fafafa;
+    --bs-baton-changeform-inline-tabular-original-border-color: #eee;
+    --bs-baton-changeform-help-text-color: #007eed;
+    --bs-baton-changeform-clockbox-title-bg: #eee;
+    --bs-baton-changeform-clockbox-title-border-color: #ddd;
+    --bs-baton-changeform-spinner-overlay-bg: rgba(255, 255, 255, 0.8);
+    --bs-baton-changeform-spinner-overlay-color: #000;
+    --bs-baton-changeform-selector-item-border-color: #ccc;
+    --bs-baton-changeform-selector-available-title-bg: #fafafa;
+    --bs-baton-changeform-selector-chosen-title-bg: #f6f8fa;
+    --bs-baton-changeform-selector-chooser-bg: #eee;
+    --bs-baton-changeform-selector-button-bg: #eee;
+    --bs-baton-changeform-selector-button-color: #000;
+    --bs-baton-changeform-submit-row-bg: #EEF2F6;
+
+    /* calendar */
+    --bs-baton-calendar-bg: #fff;
+    --bs-baton-calendar-header-bg: #f5f5f5;
+    --bs-baton-calendar-header-color: #000;
+    --bs-baton-calendar-cell-th-bg: #fafafa;
+    --bs-baton-calendar-cell-bg: #fff;
+    --bs-baton-calendar-cell-color: #000;
+    --bs-baton-calendar-cell-nonday-bg: #f8f8f8;
+    --bs-baton-calendar-cell-th-border-color: #ccc;
+    --bs-baton-calendar-cell-td-border-color: #f0f0f0;
+    --bs-baton-calendar-shortcuts-bg: #eee;
+    --bs-baton-calendar-shortcuts-color: ##8e9b00;
+    --bs-baton-calendar-cancel-bg: #b3c100;
+    --bs-baton-calendar-cancel-color: #fff;
+
+    /* changehistory */
+    --bs-baton-changehistory-bg: #fff;
+    --bs-baton-changehistory-border-color: #fff;
+
+    /* delete confirmation */
+    --bs-baton-delete-confirmation-bg: #fff;
+    --bs-baton-delete-confirmation-border-color: #fff;
+
+    /* pagination */
+    --bs-baton-pagination-bg: #fff;
+    --bs-baton-pagination-hover-bg: #eee;
+    --bs-baton-pagination-border-color: #eee;
+    --bs-baton-pagination-color: #000;
+    --bs-baton-pagination-selected-bg: #455a64;
+    --bs-baton-pagination-selected-color: #fff;
+    --bs-baton-pagination-selected-border-color: #455a64;
+
+    /* modal */
+    --bs-baton-modal-back-btn-bg: #007eed;
+    --bs-baton-modal-back-btn-color: #fff;
+
+    /* admindocs */
+    --bs-baton-admindocs-module-bg: #fff;
+    --bs-baton-admindocs-module-header-bg: #f6f6f6;
+    --bs-baton-admindocs-module-header-border-color: #fff;
+    --bs-baton-admindocs-simple-bg: #ddd;
+    --bs-baton-admindocs-pre-bg: #333;
+    --bs-baton-admindocs-pre-color: #fff;
+    --bs-baton-admindocs-table-border-color: #e0e0e0;
+
+    /* footer */
+    --bs-baton-footer-bg: #E1E7F0;
+    --bs-baton-footer-color: #25476a;
+    --bs-baton-footer-link-color: #c07404;
+    --bs-baton-footer-link-hover-color: #000;
+    --bs-baton-footer-support-color: #25476a;
+    --bs-baton-footer-support-bg: #9fcc2e;
+}
