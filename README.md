@@ -6,8 +6,8 @@ Baton provides a model managed in the admin which can contain css injected in th
 
 Here the list of themes:
 
-- [Tranquillity Light 1](./tranquillity-light-1/README.md)
-- [Tranquillity Light 2](./tranquillity-light-2/README.md)
+- [Tranquillity Light 1](./themes/tranquillity-light-1/README.md)
+- [Tranquillity Light 2](./themes/tranquillity-light-2/README.md)
 
 ## Contribute
 
